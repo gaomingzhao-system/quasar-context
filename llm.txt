@@ -1,0 +1,131 @@
+# Quasar UI
+
+> A high-performance Vue-based framework and UI library for Vue 3 that lets you build SPA, SSR, PWA, mobile, desktop, and browser extensions from a single codebase.
+
+## Getting Started
+
+- [Quick Start](https://quasar.dev/start/quick-start/): Create a new Quasar app in two steps using the Quasar CLI, with best practices and the full UI kit preconfigured. :contentReference[oaicite:0]{index=0}  
+- [Quasar CLI](https://quasar.dev/start/quasar-cli/): Scaffold and build SPA, SSR, PWA, mobile, desktop, and browser extension apps from the same project using the official CLI. :contentReference[oaicite:1]{index=1}  
+- [Vite Plugin](https://quasar.dev/start/vite-plugin/): Integrate Quasar components, directives, and Sass variables into an existing Vite project with `@quasar/vite-plugin`. :contentReference[oaicite:2]{index=2}  
+- [Commands List](https://quasar.dev/quasar-cli-vite/commands-list/): Overview of build and dev commands (`quasar dev`, `quasar build -m spa | ssr | pwa | bex | ...`). :contentReference[oaicite:3]{index=3}  
+- [Upgrade Guide (CLI + Vite)](https://quasar.dev/quasar-cli-vite/upgrade-guide/): Step-by-step guide for upgrading existing projects to the latest Quasar CLI with Vite. :contentReference[oaicite:4]{index=4}  
+- [Handling Vite](https://quasar.dev/quasar-cli-vite/handling-vite/): Configure and extend the underlying Vite setup from `quasar.config`, including adding custom Vite plugins. :contentReference[oaicite:5]{index=5}  
+- [Documentation Home](https://quasar.dev/docs/): Entry point for all Quasar documentation: guides, beginner resources, and API references. :contentReference[oaicite:6]{index=6}  
+
+## Components
+
+Quasar exposes a large set of Vue components. Below is a curated list of commonly used building blocks and layout primitives.
+
+- [Avatar](https://quasar.dev/vue-components/avatar/): A container for user portraits, icons, or text initials. :contentReference[oaicite:7]{index=7}  
+- [Badge](https://quasar.dev/vue-components/badge/): Highlight small but important information such as status or counters. :contentReference[oaicite:8]{index=8}  
+- [Banner](https://quasar.dev/vue-components/banner/): Display important messages and actions at the top or inside pages. :contentReference[oaicite:9]{index=9}  
+- [Bar](https://quasar.dev/vue-components/bar/): A thin bar used for auxiliary information or actions. :contentReference[oaicite:10]{index=10}  
+- [Breadcrumbs](https://quasar.dev/vue-components/breadcrumbs/): Show hierarchical navigation so users can track their location inside the app. :contentReference[oaicite:11]{index=11}  
+- [Buttons](https://quasar.dev/vue-components/button/): Primary button component to trigger actions and submit forms. :contentReference[oaicite:12]{index=12}  
+- [Button Dropdown](https://quasar.dev/vue-components/button-dropdown/): A button that opens a dropdown list of actions or options. :contentReference[oaicite:13]{index=13}  
+- [Button Group](https://quasar.dev/vue-components/button-group/): Group related buttons together as an alternative to separate buttons. :contentReference[oaicite:14]{index=14}  
+- [Card](https://quasar.dev/vue-components/card/): Lightweight container that can host any content; includes `QCardSection` and `QCardActions`. :contentReference[oaicite:15]{index=15}  
+- [Carousel](https://quasar.dev/vue-components/carousel/): Display images or any content in a sliding carousel. :contentReference[oaicite:16]{index=16}  
+- [Chat Message](https://quasar.dev/vue-components/chat/): Components for displaying chat conversations. :contentReference[oaicite:17]{index=17}  
+- [Checkbox](https://quasar.dev/vue-components/checkbox/): Flag one or more options in a list using checkboxes. :contentReference[oaicite:18]{index=18}  
+- [Chip](https://quasar.dev/vue-components/chip/): Compact container for labels, tags, or actions. :contentReference[oaicite:19]{index=19}  
+- [Circular Progress](https://quasar.dev/vue-components/circular-progress/): Circular indicator to show loading or progress. :contentReference[oaicite:20]{index=20}  
+- [Color Picker](https://quasar.dev/vue-components/color-picker/): Select color values using multiple UI modes. :contentReference[oaicite:21]{index=21}  
+- [Date Picker](https://quasar.dev/vue-components/date/): Select dates or ranges via calendar UI. :contentReference[oaicite:22]{index=22}  
+- [Dialog](https://quasar.dev/vue-components/dialog/): Modal dialog windows for confirmation, forms, or additional info. :contentReference[oaicite:23]{index=23}  
+- [Editor](https://quasar.dev/vue-components/editor/): WYSIWYG text editor to write and style rich text. :contentReference[oaicite:24]{index=24}  
+- [Expansion Item](https://quasar.dev/vue-components/expansion-item/): Accordion-like items that expand/collapse to reveal additional content. :contentReference[oaicite:25]{index=25}  
+- [File Picker (Uploader)](https://quasar.dev/vue-components/uploader/): Upload files from the user’s device with validation and progress. :contentReference[oaicite:26]{index=26}  
+- [Floating Action Button (FAB)](https://quasar.dev/vue-components/floating-action-button/): Prominent circular button that represents the primary action. :contentReference[oaicite:27]{index=27}  
+- [Form](https://quasar.dev/vue-components/form/): Wrapper to coordinate validation and submission of input components. :contentReference[oaicite:28]{index=28}  
+- [Form Field](https://quasar.dev/vue-components/field/): Wrapper for custom form elements to unify labeling, error display, and layout. :contentReference[oaicite:29]{index=29}  
+- [Icon](https://quasar.dev/vue-components/icon/): Insert icons from Material Icons, Font Awesome, Ionicons, MDI, and more. :contentReference[oaicite:30]{index=30}  
+- [Img](https://quasar.dev/vue-components/img/): Enhanced image component with loading, ratio control, and placeholder features. :contentReference[oaicite:31]{index=31}  
+- [Infinite Scroll](https://quasar.dev/vue-components/infinite-scroll/): Load additional content as the user scrolls. :contentReference[oaicite:32]{index=32}  
+- [Inner Loading](https://quasar.dev/vue-components/inner-loading/): Display loading overlay inside another component. :contentReference[oaicite:33]{index=33}  
+- [Input (Text Fields)](https://quasar.dev/vue-components/input/): Text input component using `v-model` with validation and many styles. :contentReference[oaicite:34]{index=34}  
+- [Intersection](https://quasar.dev/vue-directives/intersection/): Manage how UI elements enter the viewport using the Intersection Observer API. :contentReference[oaicite:35]{index=35}  
+- [Knob](https://quasar.dev/vue-components/knob/): Gauge-like control to set a value by dragging. :contentReference[oaicite:36]{index=36}  
+- [Linear Progress](https://quasar.dev/vue-components/linear-progress/): Horizontal progress bar with determinate and indeterminate modes. :contentReference[oaicite:37]{index=37}  
+- [List & List Items](https://quasar.dev/vue-components/list-and-list-items/): `QList` and `QItem` for vertical lists like menus or contact lists. :contentReference[oaicite:38]{index=38}  
+- [Markup Table](https://quasar.dev/vue-components/markup-table/): Simple table component for static content. :contentReference[oaicite:39]{index=39}  
+- [Menu](https://quasar.dev/vue-components/menu/): Dropdown panel for contextual action lists. :contentReference[oaicite:40]{index=40}  
+- [No SSR](https://quasar.dev/vue-components/no-ssr/): Skip rendering specific content during server-side rendering. :contentReference[oaicite:41]{index=41}  
+- [Option Group](https://quasar.dev/vue-components/option-group/): Helper to build grouped radio or checkbox options. :contentReference[oaicite:42]{index=42}  
+- [Pagination](https://quasar.dev/vue-components/pagination/): Page indicators and navigation for paged data sets. :contentReference[oaicite:43]{index=43}  
+- [Parallax](https://quasar.dev/vue-components/parallax/): Background parallax effect for images. :contentReference[oaicite:44]{index=44}  
+- [Popup Edit](https://quasar.dev/vue-components/popup-edit/): Inline editing popup for values displayed in the UI. :contentReference[oaicite:45]{index=45}  
+- [Popup Proxy](https://quasar.dev/vue-components/popup-proxy/): Proxy for popup content that can be anchored to other components. :contentReference[oaicite:46]{index=46}  
+- [Pull to Refresh](https://quasar.dev/vue-components/pull-to-refresh/): Mobile-style pull gesture to refresh content. :contentReference[oaicite:47]{index=47}  
+- [Radio](https://quasar.dev/vue-components/radio/): Select one option from a set of radio choices. :contentReference[oaicite:48]{index=48}  
+- [Range](https://quasar.dev/vue-components/range/): Select a numeric range with two handles. :contentReference[oaicite:49]{index=49}  
+- [Rating](https://quasar.dev/vue-components/rating/): Star rating component for user feedback. :contentReference[oaicite:50]{index=50}  
+- [Responsive](https://quasar.dev/vue-components/responsive/): Keep a consistent aspect ratio for wrapped content. :contentReference[oaicite:51]{index=51}  
+- [Scroll Area](https://quasar.dev/vue-components/scroll-area/): Custom scrollable container with optional scrollbars. :contentReference[oaicite:52]{index=52}  
+- [Select](https://quasar.dev/vue-components/select/): Single or multiple selection dropdown with filtering and advanced options. :contentReference[oaicite:53]{index=53}  
+- [Separator](https://quasar.dev/vue-components/separator/): Linear visual divider between content sections. :contentReference[oaicite:54]{index=54}  
+- [Skeleton](https://quasar.dev/vue-components/skeleton/): Placeholder skeleton loaders shown while content is loading. :contentReference[oaicite:55]{index=55}  
+- [Slide Item](https://quasar.dev/vue-components/slide-item/): Add swipe/drag behavior to list items. :contentReference[oaicite:56]{index=56}  
+- [Slider](https://quasar.dev/vue-components/slider/): Single-value range slider. :contentReference[oaicite:57]{index=57}  
+- [Space](https://quasar.dev/vue-components/space/): Flexible spacer in flex layouts. :contentReference[oaicite:58]{index=58}  
+- [Spinners](https://quasar.dev/vue-components/spinner/): Collection of loading spinner indicators. :contentReference[oaicite:59]{index=59}  
+- [Splitter](https://quasar.dev/vue-components/splitter/): Resizable layout with a draggable splitter between panels. :contentReference[oaicite:60]{index=60}  
+- [Stepper](https://quasar.dev/vue-components/stepper/): Multi-step wizard-like navigation. :contentReference[oaicite:61]{index=61}  
+- [Table](https://quasar.dev/vue-components/table/): Powerful data table with sorting, pagination, filtering, and slots. :contentReference[oaicite:62]{index=62}  
+- [Tab Panels](https://quasar.dev/vue-components/tab-panels/): Display panels where only one tab’s content is visible at a time. :contentReference[oaicite:63]{index=63}  
+- [Tabs](https://quasar.dev/vue-components/tabs/): Navigation tabs paired with `QTabPanels`. :contentReference[oaicite:64]{index=64}  
+- [Timeline](https://quasar.dev/vue-components/timeline/): Vertical timeline for chronological events and milestones. :contentReference[oaicite:65]{index=65}  
+- [Time Picker](https://quasar.dev/vue-components/time/): Pick times using a clock-like interface. :contentReference[oaicite:66]{index=66}  
+- [Toggle](https://quasar.dev/vue-components/toggle/): On/off switch component. :contentReference[oaicite:67]{index=67}  
+- [Toggle Buttons](https://quasar.dev/vue-components/toggle-button/): Button-style alternative for selecting single values. :contentReference[oaicite:68]{index=68}  
+- [Toolbar](https://quasar.dev/vue-components/toolbar/): Application top bar with actions and navigation. :contentReference[oaicite:69]{index=69}  
+- [Tooltip](https://quasar.dev/vue-components/tooltip/): Small popup with contextual help on hover or focus. :contentReference[oaicite:70]{index=70}  
+- [Tree](https://quasar.dev/vue-components/tree/): Hierarchical tree view component. :contentReference[oaicite:71]{index=71}  
+- [Uploader](https://quasar.dev/vue-components/uploader/): Advanced file uploader with lists, thumbnails, and progress. :contentReference[oaicite:72]{index=72}  
+- [Video](https://quasar.dev/vue-components/video/): Responsive embedded video component, e.g. for YouTube. :contentReference[oaicite:73]{index=73}  
+- [Virtual Scroll](https://quasar.dev/vue-components/virtual-scroll/): Virtualized list rendering for large datasets. :contentReference[oaicite:74]{index=74}  
+
+For a complete index of components, directives, plugins, and utils, see the [Components Overview](https://quasar.dev/components/). :contentReference[oaicite:75]{index=75}  
+
+## Composables
+
+Quasar exposes Vue composables for accessing framework features in the Composition API.
+
+- [useQuasar](https://quasar.dev/vue-composables/use-quasar/): Access the `$q` object (platform, screen, language, dark mode, plugins, etc.) inside `setup()`. :contentReference[oaicite:76]{index=76}  
+- [useMeta](https://quasar.dev/vue-composables/use-meta/): Composition API interface to the Meta plugin for dynamic `<title>` and `<meta>` tags. :contentReference[oaicite:77]{index=77}  
+- [useId](https://quasar.dev/vue-composables/use-id/): Generate SSR-safe, reactive unique IDs to bind to DOM attributes. :contentReference[oaicite:78]{index=78}  
+- [useSplitAttrs](https://quasar.dev/vue-composables/use-split-attrs/): Split `attrs` into listener vs. regular HTML attributes for advanced component design. :contentReference[oaicite:79]{index=79}  
+
+Additional composables are documented under the [Vue Composables](https://quasar.dev/vue-composables/) section.
+
+## Plugins & Utils
+
+Quasar plugins integrate cross-cutting concerns like notifications, dark mode, and storage.
+
+- [Notify](https://quasar.dev/quasar-plugins/notify/): Floating toast/snackbar notifications, often used with `$q.notify()` from `useQuasar`. :contentReference[oaicite:80]{index=80}  
+- [Loading](https://quasar.dev/quasar-plugins/loading/): Global loading overlay with spinner and message for background operations. :contentReference[oaicite:81]{index=81}  
+- [Dark](https://quasar.dev/quasar-plugins/dark/): Centralized dark mode state management with configurable modes (`on`, `off`, `auto`). :contentReference[oaicite:82]{index=82}  
+- [Meta Plugin](https://quasar.dev/quasar-plugins/meta/): Manage SEO meta tags, head scripts/styles, and `<html>/<body>` attributes. :contentReference[oaicite:83]{index=83}  
+- [App Visibility](https://quasar.dev/quasar-plugins/app-visibility/): React to whether the app is visible or in focus, via Page Visibility API. :contentReference[oaicite:84]{index=84}  
+- [Addressbar Color](https://quasar.dev/quasar-plugins/addressbar-color/): Control browser address bar color on mobile. :contentReference[oaicite:85]{index=85}  
+- [Cookies](https://quasar.dev/quasar-plugins/cookies/): Simple API for managing cookies. :contentReference[oaicite:86]{index=86}  
+- [Local/Session Storage](https://quasar.dev/quasar-plugins/web-storage/): Helpers for `localStorage` and `sessionStorage`. :contentReference[oaicite:87]{index=87}  
+
+Utility modules are also provided:
+
+- [Date Utils](https://quasar.dev/quasar-utils/date-utils/): Helpers to manipulate and format dates. :contentReference[oaicite:88]{index=88}  
+- [DOM Utils](https://quasar.dev/quasar-utils/dom-utils/): DOM helpers such as position, selection, and element helpers. :contentReference[oaicite:89]{index=89}  
+- [Formatter Utils](https://quasar.dev/quasar-utils/formatting-utils/): Utilities for string and number formatting. :contentReference[oaicite:90]{index=90}  
+- [Scrolling Utils](https://quasar.dev/quasar-utils/scrolling-utils/): Programmatic scrolling helpers for pages and elements. :contentReference[oaicite:91]{index=91}  
+- [Type Checking Utils](https://quasar.dev/quasar-utils/type-checking-utils/): Functions for detecting variable types. :contentReference[oaicite:92]{index=92}  
+- [Event Bus Util](https://quasar.dev/quasar-utils/event-bus-util/): Lightweight global event bus helper. :contentReference[oaicite:93]{index=93}  
+
+## Documentation Sets
+
+- [Quasar Full Documentation](https://quasar.dev/docs/): Main documentation site with guides, components, plugins, and API references. :contentReference[oaicite:94]{index=94}  
+- [Components, Directives, Plugins & Utils Index](https://quasar.dev/components/): One page listing the core components, directives, plugins, and utility modules. :contentReference[oaicite:95]{index=95}  
+
+## Notes
+
+- Quasar is a full framework (CLI, build system, routing, SSR, PWA, mobile/desktop targets) plus a comprehensive Material Design–inspired UI library. :contentReference[oaicite:96]{index=96}  
+- When integrating into existing Vite projects, prefer the [Vite Plugin](https://quasar.dev/start/vite-plugin/) and the [Components Overview](https://quasar.dev/components/) as primary references for tree-shaken usage. :contentReference[oaicite:97]{index=97}  
